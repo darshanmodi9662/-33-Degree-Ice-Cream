@@ -1,0 +1,356 @@
+body {
+    background: url('path/to/your/frozen-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    padding: 100px 0;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Dark background for better contrast */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    /* Increase font size for emphasis */
+    color: #fff;
+    /* Ensure text is white */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    /* Subtle shadow for depth */
+}
+
+.carousel-caption p {
+    color: #f0f0f0;
+    /* Slightly lighter color for description */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    /* Subtle shadow for depth */
+}
+
+.flavors-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Light background for clarity */
+    padding: 50px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.flavor-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Ensure card background is white */
+    border: 1px solid #ddd;
+    /* Light border for better definition */
+}
+
+.flavor-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.flavor-card img {
+    height: 200px;
+    /* Set a uniform height for images */
+    object-fit: cover;
+    /* Ensure images cover the space properly */
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+    /* Dark text color for contrast */
+}
+
+.card-text {
+    color: #555;
+    /* Medium dark text color for better readability */
+}
+
+.btn-primary {
+    background-color: #6f42c1;
+    /* Custom button color */
+    border-color: #6f42c1;
+    /* Matching border color */
+}
+
+.btn-primary:hover {
+    background-color: #5a32a3;
+    /* Darker shade on hover */
+    border-color: #5a32a3;
+    /* Matching border color on hover */
+}
+
+.menu-section {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #6f42c1;
+    /* Custom header background */
+    color: white;
+    /* White text for table header */
+}
+
+.table td {
+    vertical-align: middle;
+    /* Center align content */
+}
+
+.special-card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.special-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.special-card img {
+    height: 200px;
+    /* Set a uniform height for images */
+    object-fit: cover;
+    /* Ensure images cover the space properly */
+}
+
+.gallery-section {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /* Ensures the images don't overflow the container */
+    border-radius: 5px;
+    /* Rounded corners for the images */
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    /* Scale effect on hover */
+}
+
+.gallery-item img {
+    width: 100%;
+    /* Full width to fit the column */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 5px;
+    /* Consistent rounded corners */
+    transition: filter 0.3s ease;
+    /* Smooth filter transition */
+}
+
+.gallery-item img:hover {
+    filter: brightness(80%);
+    /* Darken the image slightly on hover */
+}
+
+.contact-section {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h4 {
+    color: #6f42c1;
+    /* Custom color for subheadings */
+    margin-top: 20px;
+    /* Spacing above subheadings */
+}
+
+.form-group label {
+    color: #333;
+    /* Dark color for labels */
+}
+
+.social-links {
+    margin-top: 15px;
+    /* Spacing above social links */
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 15px;
+    /* Space between icons */
+    font-size: 24px;
+    /* Icon size */
+    color: #6f42c1;
+    /* Custom color for icons */
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #5a32a3;
+    /* Darker shade on hover */
+}
+
+.contact-section {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Light background */
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h4 {
+    color: #6f42c1;
+    /* Custom color for subheadings */
+    margin-top: 20px;
+    /* Spacing above subheadings */
+}
+
+.contact-section p {
+    color: #333;
+    /* Dark color for address text */
+    line-height: 1.6;
+    /* Improve readability */
+}
+
+.form-group label {
+    color: #333;
+    /* Dark color for labels */
+}
+
+.social-links {
+    margin-top: 15px;
+    /* Spacing above social links */
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 aspect ratio */
+    position: relative;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #e0f7fa;
+    /* Light blue background */
+}
+
+.hero-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+    margin-bottom: 30px;
+}
+
+.call-to-action {
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    padding: 30px 0;
+}
+
+.call-to-action h2 {
+    margin-bottom: 20px;
+}
+
+.flavor-card,
+.special-card {
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.gallery-section img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Impact&display=swap');
+
+.call-to-action {
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-family: 'Impact', sans-serif;
+    /* Set title font to Impact */
+    margin-bottom: 20px;
+}
+
+.call-to-action .btn {
+    margin: 5px;
+    /* Add space between buttons */
+    padding: 15px 30px;
+    /* Increase button padding */
+    font-size: 1.2rem;
+    /* Larger font size */
+    border-radius: 25px;
+    /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth transition */
+}
+
+.call-to-action .btn-primary {
+    background-color: #28a745;
+    /* Change button color */
+    border-color: #28a745;
+    /* Matching border color */
+}
+
+.call-to-action .btn-primary:hover {
+    background-color: #218838;
+    /* Darker shade on hover */
+    border-color: #1e7e34;
+    /* Matching border color on hover */
+}
+
+.call-to-action .btn-secondary {
+    background-color: #ffc107;
+    /* Change button color */
+    border-color: #ffc107;
+    /* Matching border color */
+}
+
+.call-to-action .btn-secondary:hover {
+    background-color: #e0a800;
+    /* Darker shade on hover */
+    border-color: #d39e00;
+    /* Matching border color on hover */
+}
